@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        section {
+            padding: 500px 0;
+        }
+    </style>
+</head>
+<body data-bs-spy="scroll" data-bs-target="#navbar-example" data-bs-offset="50" tabindex="0">
+    <nav id="navbar-example" class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">First Section</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">Second Section</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">Third Section</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Fourth Section</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <section id="home" class="bg-light">
+        <div class="container">
+            <h1>First Section</h1>
+            <p>Scroll to the first section</p>
+        </div>
+    </section>
+    <section id="about" class="bg-secondary text-white">
+        <div class="container">
+            <h1>Second Section</h1>
+            <p>Scroll to the second section</p>
+        </div>
+    </section>
+    <section id="services" class="bg-light">
+        <div class="container">
+            <h1>Third Section</h1>
+            <p>Scroll to the third section</p>
+        </div>
+    </section>
+    <section id="contact" class="bg-secondary text-white">
+        <div class="container">
+            <h1>Fourth Section</h1>
+            <p>Scroll to the fourth section</p>
+        </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
